@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A44116625CCECBA00491365 /* SubViewMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A44116525CCECBA00491365 /* SubViewMessage.swift */; };
+		7A44116B25CCECC900491365 /* SubViewMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A44116A25CCECC900491365 /* SubViewMatch.swift */; };
+		7A44117425CD22D400491365 /* SubViewLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A44117325CD22D400491365 /* SubViewLike.swift */; };
+		7A44117925CD22E300491365 /* SubViewPick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A44117825CD22E300491365 /* SubViewPick.swift */; };
+		7A5B313425CA84AA00671D9D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B313325CA84AA00671D9D /* ProfileView.swift */; };
+		7A5B313C25CA84D000671D9D /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B313B25CA84D000671D9D /* Match.swift */; };
+		7A5B314125CA84E100671D9D /* Likes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B314025CA84E100671D9D /* Likes.swift */; };
+		7A5B314625CA84F400671D9D /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B314525CA84F400671D9D /* Messages.swift */; };
+		7A5B314B25CA851A00671D9D /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B314A25CA851A00671D9D /* TabView.swift */; };
 		7A8E83AF25C953DA0056AA5C /* HelloCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E83AE25C953DA0056AA5C /* HelloCardApp.swift */; };
 		7A8E83B125C953DA0056AA5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E83B025C953DA0056AA5C /* ContentView.swift */; };
 		7A8E83B325C953DB0056AA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A8E83B225C953DB0056AA5C /* Assets.xcassets */; };
 		7A8E83B625C953DB0056AA5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A8E83B525C953DB0056AA5C /* Preview Assets.xcassets */; };
 		7A8E83C125C953DB0056AA5C /* HelloCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E83C025C953DB0056AA5C /* HelloCardTests.swift */; };
 		7A8E83CC25C953DB0056AA5C /* HelloCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E83CB25C953DB0056AA5C /* HelloCardUITests.swift */; };
+		7A8E844A25C9661D0056AA5C /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E844925C9661D0056AA5C /* CreateAccount.swift */; };
+		7A8E844B25C9661D0056AA5C /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E844925C9661D0056AA5C /* CreateAccount.swift */; };
+		7A8E844C25C9661D0056AA5C /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E844925C9661D0056AA5C /* CreateAccount.swift */; };
+		7A8E845425C96B980056AA5C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E845325C96B980056AA5C /* SignInView.swift */; };
+		7A8E845525C96B980056AA5C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E845325C96B980056AA5C /* SignInView.swift */; };
+		7A8E845625C96B980056AA5C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8E845325C96B980056AA5C /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A44116525CCECBA00491365 /* SubViewMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewMessage.swift; sourceTree = "<group>"; };
+		7A44116A25CCECC900491365 /* SubViewMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewMatch.swift; sourceTree = "<group>"; };
+		7A44117325CD22D400491365 /* SubViewLike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewLike.swift; sourceTree = "<group>"; };
+		7A44117825CD22E300491365 /* SubViewPick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewPick.swift; sourceTree = "<group>"; };
+		7A5B313325CA84AA00671D9D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = HelloCard/ProfileView.swift; sourceTree = SOURCE_ROOT; };
+		7A5B313B25CA84D000671D9D /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		7A5B314025CA84E100671D9D /* Likes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Likes.swift; sourceTree = "<group>"; };
+		7A5B314525CA84F400671D9D /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		7A5B314A25CA851A00671D9D /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		7A8E83AB25C953DA0056AA5C /* HelloCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8E83AE25C953DA0056AA5C /* HelloCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCardApp.swift; sourceTree = "<group>"; };
 		7A8E83B025C953DA0056AA5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +69,8 @@
 		7A8E83C725C953DB0056AA5C /* HelloCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8E83CB25C953DB0056AA5C /* HelloCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCardUITests.swift; sourceTree = "<group>"; };
 		7A8E83CD25C953DB0056AA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8E844925C9661D0056AA5C /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
+		7A8E845325C96B980056AA5C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +98,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A44116F25CCF63E00491365 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B314525CA84F400671D9D /* Messages.swift */,
+				7A44116525CCECBA00491365 /* SubViewMessage.swift */,
+				7A44116A25CCECC900491365 /* SubViewMatch.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		7A44117D25CD289B00491365 /* Likes */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B314025CA84E100671D9D /* Likes.swift */,
+				7A44117325CD22D400491365 /* SubViewLike.swift */,
+				7A44117825CD22E300491365 /* SubViewPick.swift */,
+			);
+			path = Likes;
+			sourceTree = "<group>";
+		};
 		7A8E83A225C953DA0056AA5C = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +142,12 @@
 			isa = PBXGroup;
 			children = (
 				7A8E83AE25C953DA0056AA5C /* HelloCardApp.swift */,
-				7A8E83B025C953DA0056AA5C /* ContentView.swift */,
+				7A5B313325CA84AA00671D9D /* ProfileView.swift */,
+				7A5B313B25CA84D000671D9D /* Match.swift */,
+				7A44117D25CD289B00491365 /* Likes */,
+				7A44116F25CCF63E00491365 /* Messages */,
+				7A5B314A25CA851A00671D9D /* TabView.swift */,
+				7A8E845A25C96F920056AA5C /* Parent Views */,
 				7A8E83B225C953DB0056AA5C /* Assets.xcassets */,
 				7A8E83B725C953DB0056AA5C /* Info.plist */,
 				7A8E83B425C953DB0056AA5C /* Preview Content */,
@@ -128,6 +179,16 @@
 				7A8E83CD25C953DB0056AA5C /* Info.plist */,
 			);
 			path = HelloCardUITests;
+			sourceTree = "<group>";
+		};
+		7A8E845A25C96F920056AA5C /* Parent Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A8E83B025C953DA0056AA5C /* ContentView.swift */,
+				7A8E844925C9661D0056AA5C /* CreateAccount.swift */,
+				7A8E845325C96B980056AA5C /* SignInView.swift */,
+			);
+			path = "Parent Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +320,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A44116B25CCECC900491365 /* SubViewMatch.swift in Sources */,
 				7A8E83B125C953DA0056AA5C /* ContentView.swift in Sources */,
+				7A5B314625CA84F400671D9D /* Messages.swift in Sources */,
 				7A8E83AF25C953DA0056AA5C /* HelloCardApp.swift in Sources */,
+				7A5B313425CA84AA00671D9D /* ProfileView.swift in Sources */,
+				7A8E845425C96B980056AA5C /* SignInView.swift in Sources */,
+				7A8E844A25C9661D0056AA5C /* CreateAccount.swift in Sources */,
+				7A44117925CD22E300491365 /* SubViewPick.swift in Sources */,
+				7A5B313C25CA84D000671D9D /* Match.swift in Sources */,
+				7A5B314B25CA851A00671D9D /* TabView.swift in Sources */,
+				7A5B314125CA84E100671D9D /* Likes.swift in Sources */,
+				7A44117425CD22D400491365 /* SubViewLike.swift in Sources */,
+				7A44116625CCECBA00491365 /* SubViewMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +340,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A8E845525C96B980056AA5C /* SignInView.swift in Sources */,
 				7A8E83C125C953DB0056AA5C /* HelloCardTests.swift in Sources */,
+				7A8E844B25C9661D0056AA5C /* CreateAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A8E845625C96B980056AA5C /* SignInView.swift in Sources */,
 				7A8E83CC25C953DB0056AA5C /* HelloCardUITests.swift in Sources */,
+				7A8E844C25C9661D0056AA5C /* CreateAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
